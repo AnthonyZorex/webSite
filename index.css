@@ -12,7 +12,6 @@ color:#fff;
 }
 body{
     background: #082422;
-  margin: 0,auto;
 }
 nav{
     justify-content: center;
@@ -85,7 +84,6 @@ position: absolute;
 margin-left: -93.49px;
 margin-top: -39px;
 }
-
 #main_menu{
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
@@ -116,7 +114,12 @@ margin-top: -39px;
 #main_menu li a{
     text-decoration: none;
 }
-
+#mainBlock_arc{
+    position: absolute;
+    z-index: -1;
+    margin-left: -700px;
+    margin-top: -310px;
+}
 #main_menu ul{
     gap: 81px;
     display: flex;
@@ -530,16 +533,15 @@ justify-content: center;
     line-height: 19.5px;
 }
 #circle3{
-    border-radius: 463.523px;
+border-radius: 463.523px;
 background: radial-gradient(178.14% 180.44% at 11.76% -77.78%, #C93ACC 50.81%, #F8617C 100%);
 width: 463.523px;
 height: 463px;
 flex-shrink: 0;
 position: absolute;
-margin-left: -100px;
 z-index: -1;
 }
-#element svg{
+#element {
     position: absolute;
     margin-top: -180px;
     margin-left: -738px;
@@ -569,12 +571,12 @@ z-index: -1;
     font-size: 16px;
     line-height: 19.5px;
 }
-#circle4{
+ #circle4{
 position: absolute;
-margin-left: 1052px;
+margin-left: 300px;
 z-index: -1;
 margin-top: 50px;
-}
+} 
 #block13{
     margin-top: 150px;
     height: 269px;
@@ -727,7 +729,7 @@ grid-row-gap: 74px;
 #circle6{
     position: absolute;
     z-index: -1;
-    margin-left: 940px;
+    margin-left: 700px;
     margin-top: -20px;
 }
 #block15{
@@ -1039,6 +1041,17 @@ margin-top: 155px;
     line-height: normal;
     margin-top: 21px;
 }
+/* #teacher_circle2{
+    border-radius: 394.045px;
+    background: radial-gradient(97.47% 97.47% at 17.46% 14.93%, #C93ACC 22.92%, #F8617C 100%);
+    width: 394.045px;
+    height: 385.752px;
+    position: absolute;
+    z-index: -1;
+    margin-left: 400px;
+    margin-top: -100px;
+    flex-shrink: 0;
+} */
 #teacher_block2_content div p{
     color: #FFF;
     margin-top: 10px;
@@ -1052,10 +1065,9 @@ margin-top: 155px;
     line-height: normal;
 }
 #teacher_arc{
-    margin-left: 51px;
     position: absolute;
     z-index: -1;
-    margin-top: -220px;
+    margin-top: 130px;
 }
 #teacher_block3{
     margin-top: 100px;
@@ -1079,7 +1091,7 @@ line-height: normal;
 }
 #teacher_block4{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 95px;
     margin-left: 230px;
     margin-right: 230px;
 }
@@ -1092,11 +1104,12 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
-#teacher_arc2 svg{
+#teacher_arc2{
     position: absolute;
     text-align: start;
     z-index: -1; 
-    margin-top: -192px;
+    margin-top: -160px;
+    margin-left: -700px;
 }
 
 #teacher_block_content3{
@@ -1105,8 +1118,12 @@ line-height: normal;
     align-items: center;
     height: 631.68px;
     flex-shrink: 0;
-    
-
+}
+#teacher_circle4{
+    position: absolute;
+    z-index: 0;
+    margin-top: 450px;
+    margin-left: 450px;
 }
 #teacher_block_content3{
     border-radius: 12px;
@@ -1327,13 +1344,13 @@ margin-top: 20px;
 }
 #translate_3 p span{
     color: #FF038B;
-text-align: center;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-font-family: 'Montserrat';
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 #translate_3 hr{
     margin-left: 12px;
